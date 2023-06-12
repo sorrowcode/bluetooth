@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                 //                                          int[] grantResults)
                 // to handle the case where the user grants the permission. See the documentation
                 // for ActivityCompat#requestPermissions for more details.
-                ActivityCompat.requestPermissions(this, )
+                //ActivityCompat.requestPermissions(this, )
                 return
             }
             startActivityForResult(enableBtIntent, 1)

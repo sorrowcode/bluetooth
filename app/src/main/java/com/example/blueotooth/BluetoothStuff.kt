@@ -18,7 +18,7 @@ class BluetoothStuff(var bluetoothAdapter: BluetoothAdapter, private val bluetoo
     private val context = context
     private var scanCallback = CustomScanCallback()
 
-    private fun scanLeDevice() {
+    fun scanLeDevice() {
         if (!scanning) { // Stops scanning after a pre-defined scan period.
             handler.postDelayed({
                 scanning = false
